@@ -1,0 +1,27 @@
+{
+  "name": "Groar/generic-php-libraries",
+  "description": "Groar generic php libraries",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Sebastian Lagemann",
+      "email": "degola@groar.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Groar\\Generic\\": "src/",
+      "Groar\\Generic\\Traits\\DataModel\\": "src/Traits/DataModel/",
+      "Groar\\Generic\\Interfaces\\DataModel\\": "src/Interfaces/DataModel/",
+      "Groar\\Generic\\Abstracts\\DataModel\\": "src/Abstracts/DataModel/"
+    }
+  }
+}
